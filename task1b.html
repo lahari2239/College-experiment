@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+  <head>
+    <title> Java Script Selectors</title>
+  </head>
+  <body>
+    <h1 id="heading">Welcome</h1>
+    <p class="text">This is the first paragraph.</p>
+    <p class="text">this is the second paragraph.</p>
+    <button onclick="changecontent()">Click Me</button>
+    <script>
+      function change content(){
+        document.getelementbyid("heading").innerhtml="javascript selectors";
+        document.getelementbyclassname("text")[0].style.color="blue";
+        document.getelementbytagname("p")[1].style.color="green";
+        document.queryselector("h1).style.backgroundcolor="yellow";
+      }
+    </script>
+  </body>
+</html>
