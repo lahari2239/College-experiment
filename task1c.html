@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </title> Event Listeners Example</title>
+  </head>
+  <body>
+    <h2 id ="message">welcome to javascript</h2>
+    <button id="btn">click me</button>
+    <script>
+      const button=document.getelementbyid("bt");
+      button.addEventListeners("click",function(){
+        document.getelementbyid("message").innerhtml="button clicked successfully!";
+      });
+    </script>
+  </body>
+</html>
